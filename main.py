@@ -1,4 +1,4 @@
-temperature = input("Enter temperature in celsuis: ") 
+temperature = float( input("Enter temperature in celsuis: ") )
+farenheittemperature = ( (9 / 5 ) * temperature ) + 32
 
-temperature = float(temperature)
-print(str(temperature)+"° in Celsius is equal to " + str(temperature) + "° Fahrenheit.")
+print(str( temperature ) +"° in Celsius is equivalent to " + str( farenheittemperature ) + "° Fahrenheit.")
